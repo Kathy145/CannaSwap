@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Components/Header'
 import Home from './Components/Home'
 import Footer from './Components/Footer'
+import Signup from './Components/Signup'
 
 
 class App extends Component {
@@ -12,7 +13,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Home />
+        {/* <Home /> */}
+        <Signup />
         <Footer />
       </div>
     );
